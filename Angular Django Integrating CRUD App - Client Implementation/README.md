@@ -1,6 +1,11 @@
+Django is a Python-based free and open-source web framework that follows the model-template-view architectural pattern. Angular is a TypeScript-based open-source web application framework led by the Angular Team at Google. In the tutorial, I introduce how to build a Angular Django CRUD RestAPIs Fullstack Project with POST/GET/PUT/DELETE requests with step by step coding examples.
+
 
 Angular Django CRUD RestAPIs Application Examples – Fullstack Angular 10 + Django + MySQL/PostgreSQL Tutorial
 - Full Tutorial: https://loizenai.com/angular-django-crud-restapis-application-examples-fullstack-angular-10-django-mysql-postgresql/
+
+Run by cmd : npm start
+---------------------
 
 Related posts:
 1. Angular Nodejs Fullstack CRUD Application with MySQL/PostgreSQL – Angular 10-9-8 HttpClient + Nodejs Express, Sequelize ORM
