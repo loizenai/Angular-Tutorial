@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>AngularHttpclient</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="container" >  
+    <div class="col-sm-5" style="background-color: #ffffcc; margin:10px;padding:10px; border-radius: 5px">
+      <div class="alert alert-danger">
+        <h3>Angular + Django Tutorial</h3>
+        <h6><strong>Build CRUD Application</strong></h6>
+        <hr>
+        <p>@Copyright by <strong><span style="color:blue"><a href="https://loizenai.com">https://loizenai.com</a></span></strong><br>
+            youtube: <strong><a href="https://www.youtube.com/channel/UChkCKglndLes1hkKBDmwPWA"><span style="color:crimson">loizenai</span></a></strong>
+        </p>
+    </div>
+      <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+        <ul class="navbar-nav">
+          <li class="nav-item" id="li_add_customer">
+            <a class="nav-link" href="">Add Customer</a>
+          </li>
+          <li class="nav-item" id="li_list_customers">
+            <a class="nav-link" href="/customers">List Customers</a>
+          </li>
+        </ul>
+    </nav>
+      <app-root></app-root>
+    </div>
+  </div>
+  <script>
+    $(document).ready(function() {
+      (function(){
+        let pathname = window.location.pathname;
+        if(pathname == "/"){
+            $("#li_add_customer").addClass("active");
+            $("#li_list_customers").removeClass("active");
+        } else if (pathname == "/customers") {
+            $("#li_list_customers").addClass("active");
+            $("#li_add_customer").removeClass("active");
+        }
+      })();
+    });
+  </script>
+</body>
+</html>
