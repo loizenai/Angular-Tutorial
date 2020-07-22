@@ -1,27 +1,14 @@
-# AngularTablePaging
+Client Side Development - Angular Bootstrap Table for Pagination Filtering & Soritng Solution
+Tutorials: [Angular SpringBoot] Angular Table Pagination Filtering Sorting with SpringBoot RestAPIs + Bootstrap
+-> Link: https://loizenai.com/build-angular-table-pagination-filtering-sorting-with-springboot-restapis-example-tutorial/
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
+Related posts:
 
-## Development server
+1. Angular Nodejs Fullstack CRUD Application with MySQL/PostgreSQL – Angular 10-9-8 HttpClient + Nodejs Express, Sequelize ORM
+https://loizenai.com/angular-nodejs-fullstack-crud-application-with-mysql-postgresql-angular-10-9-8-httpclient-client-nodejs-express-sequelize-orm/
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+2. Angular Spring Boot JWT Authentication Example – Angular 6, 8, 9 + Spring Security + MySQL/PostgreSQL
+https://loizenai.com/angular-spring-boot-jwt-authentication-example-angular-6-8-9-spring-security-mysql-postgresql/
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+3. Spring Boot Security JWT Authentication Example – MySQL/PostgreSQL + Spring JPA + RestAPIs
+https://loizenai.com/spring-boot-security-jwt-authentication-example-mysql-postgresql-spring-jpa-restapis/
