@@ -12,3 +12,6 @@ https://loizenai.com/angular-crud-application-with-springboot-and-mysql-postgres
 
 4. Angular Nodejs Fullstack CRUD Application with MySQL/PostgreSQL – Angular 10-9-8 HttpClient + Nodejs Express, Sequelize ORM
 https://loizenai.com/angular-nodejs-fullstack-crud-application-with-mysql-postgresql-angular-10-9-8-httpclient-client-nodejs-express-sequelize-orm
+
+5. Angular 10 Spring Boot JWT Authentication Example – Angular 6, 8, 9, 10 + Spring Security + MySQL/PostgreSQL
+https://loizenai.com/angular-spring-boot-jwt-authentication-example-angular-6-8-9-spring-security-mysql-postgresql/
