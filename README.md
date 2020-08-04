@@ -15,3 +15,6 @@ https://loizenai.com/angular-nodejs-fullstack-crud-application-with-mysql-postgr
 
 5. Angular 10 Spring Boot JWT Authentication Example – Angular 6, 8, 9, 10 + Spring Security + MySQL/PostgreSQL
 https://loizenai.com/angular-spring-boot-jwt-authentication-example-angular-6-8-9-spring-security-mysql-postgresql/
+
+6. Angular 10 Nodejs Pagination RestAPIs + Filtering Sorting Example – Fullstack: Angular + Nodejs RestAPIs+ MySQL Tutorial
+https://loizenai.com/angular-10-nodejs-mysql-pagination-filtering-sorting-restapis-example/
