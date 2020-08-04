@@ -1,0 +1,64 @@
+<div *ngIf="customers.length">
+    <h3>Processing...</h3>
+    <br>
+    <div>    
+      <h5>Do you want sorting by?</h5>
+      <form>
+        <label class="checkbox-inline">
+          <input type="checkbox"
+                  [checked]="agesorting"
+                  (change)="onAgeSortingChange($event)"> Age
+          <br>
+          <input  [disabled]="!agesorting" type="checkbox"
+                  [checked]="desc"
+                  (change)="desc = !desc"> Desc
+        </label>
+      </form>
+      <button type="button" class="btn btn-primary" (click)="sortNow()">Sort Now</button>
+    </div>
+    <hr>
+    <div class="form-group">
+      <label for="sel1"><h5>Filtering by Salary:</h5></label>
+      <select class="form-control" id="salary_filtering"
+                    (change)="getCustomerPagesWithSalaryFiltering($event.target.value)">
+        <option>All</option>
+        <option *ngFor="let salary of salaries">{{salary}}</option>
+      </select>
+    </div>
+    <h3>Customers</h3>
+    <table class="table table-hover table-sm">
+        <thead class="thead-dark">
+          <tr>
+            <th>Id</th>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Age</th>
+            <th>Salary</th>
+            <th>Address</th>
+            <th>Copyright By</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let customer of customers">
+              <td>{{customer.id}}</td>
+              <td>{{customer.firstname}}</td>
+              <td>{{customer.lastname}}</td>
+              <td>{{customer.age}}</td>
+              <td>{{customer.salary}}</td>
+              <td>{{customer.address}}</td>
+              <td><a style="color:red;" href="https://loizenai.com">{{customer.copyrightby}}</a></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<ul class="pagination justify-content-center">
+  <li class="page-item"><a (click)="previousClick()" class="page-link">Previous</a></li>
+  <li *ngFor='let index of pageIndexes' class="page-item" [ngClass]="active(index)">
+          <a (click)="getPaginationWithIndex(index)" class="page-link">
+            {{index + 1}}
+          </a>
+  </li>
+  <li class="page-item"><a (click)="nextClick()" class="page-link">Next</a></li>
+</ul>
