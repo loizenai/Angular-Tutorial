@@ -18,3 +18,6 @@ https://loizenai.com/angular-spring-boot-jwt-authentication-example-angular-6-8-
 
 6. Angular 10 Nodejs Pagination RestAPIs + Filtering Sorting Example – Fullstack: Angular + Nodejs RestAPIs+ MySQL Tutorial
 https://loizenai.com/angular-10-nodejs-mysql-pagination-filtering-sorting-restapis-example/
+
+7.  Angular 10 + Nodejs JWT Token Based Authentication with MySQL Example – Express RestAPIs + JWT + BCryptjs + Sequelize
+https://loizenai.com/angular-10-nodejs-jwt-authentication-mysql-examples-tutorials/
