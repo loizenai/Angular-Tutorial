@@ -1,0 +1,33 @@
+<h2>Create Customer</h2>
+<div>
+  <form (ngSubmit)="onSubmit()"> 
+    <!-- First name -->   
+    <div class="form-group">
+      <label for="firstname">First Name:</label>
+      <input type="text" class="form-control" placeholder="Enter Firstname" 
+                id="firstname" required [(ngModel)]="customer.firstname" name="firstname">
+    </div>
+    <!-- Last name -->
+    <div class="form-group">
+        <label for="lastname">Last Name:</label>
+        <input type="text" class="form-control" placeholder="Enter Lastname" 
+                  id="lastname" required [(ngModel)]="customer.lastname" name="lastname">
+    </div>  
+    <!-- Address -->
+    <div class="form-group">
+        <label for="address">Address:</label>
+        <input type="text" class="form-control" placeholder="Enter Address" 
+                  id="address" required [(ngModel)]="customer.address" name="address">
+    </div>        
+    
+    <!-- Age -->
+    <div class="form-group">
+      <label for="age">Age</label>
+      <input type="number" class="form-control" placeholder="Enter Age" 
+                  id="age" required [(ngModel)]="customer.age" name="age">
+    </div>
+ 
+    <button type="submit" class="btn btn-success">Submit</button>
+  </form>
+</div>
+<app-message></app-message>
