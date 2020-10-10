@@ -1,27 +1,17 @@
-# AngularHttpclient
+https://loizenai.com/angular-10-springboot-mongodb-crud-restapi-example/
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
+Angular 10 SpringBoot MongoDB CRUD Example – using SpringData & Atlas MongoDB
 
-## Development server
+In the tutorial, I introduce how to build an “Angular 10 SpringBoot MongoDB CRUD Example RestAPIs” project with the help of SpringData and Atlas MongoDB for POST/GET/PUT/DELETE requests with step by step coding examples:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+– SpringBoot project produces CRUD RestAPIs with MongoDB database documents using the supporting of Spring Data.
+– Angular 10 project will consume the SpringBoot CRUD RestAPIs then show up on component’s views.
 
-## Code scaffolding
+What we will do?
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+– I draw a fullstack overview Diagram Architecture from Angular Frontend to MongoDB database through SpringBoot RestAPI backend.
+– Develop SpringBoot CRUD RestAPIs with the supporting of SpringWeb Framework.
+– Implement Angular CRUD application with the Angular Httpclient to do CRUD request (Post/Get/Put/Delete) to SpringBoot Backend APIs.
+– I create a testsuite with a number of integrative testcases with CRUD RestAPI requests from Angular 10 HttpClient to do CRUD requests to SpringBoot RestAPIs Server and save/retrieve data to MongoDB database.
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+https://loizenai.com/angular-10-springboot-mongodb-crud-restapi-example/
